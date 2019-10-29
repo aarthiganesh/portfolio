@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.about{
+    background-color: #FFD361;
+    float: right;
+    width: 50vw;
+    height: 100vh;
+
+}
+.dp{
+    float: left;
+    width: 50vw;
+    height: 100vh;
+    background-color: bisque;
+}
+
+h1{
+    font-family: poppins;
+    letter-spacing: 20px;
+}
+.about-title{
+    text-align: center;
+
+}
