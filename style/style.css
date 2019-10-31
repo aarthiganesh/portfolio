@@ -1,15 +1,15 @@
 body{
-    margin: 0;
+    margin: 10%;
 }
 .about{
     background-color: #FFD361;
     float: right;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border-radius: 0% 0% 0% 10%;
+    border-radius: 0% 10% 10% 10%;
 
 }
 @media (orientation:portrait)and (min-width: 600px){
@@ -27,7 +27,7 @@ body{
 }
 .dp{
     float: left;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -43,7 +43,7 @@ body{
 .name{
     font-family: poppins;
     letter-spacing: 0.4em;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: bolder;
     margin: 0;    
     text-shadow: 0.1em 0.1em white;
@@ -80,6 +80,11 @@ body{
     text-shadow: 0.1em 0.1em #ffd361;
     height: auto;
 }
+
+p.title{
+    margin: 0px;
+}
+
 .portfolio-icon{
 
     display: flex;
@@ -94,7 +99,39 @@ body{
 .port-icon{
     width: 80%;
 }
-  
+.resume-body{
+    padding: 3.33%;
+}
+.highlight{
+    width: auto;
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+    border-radius: 0% 10% 0% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+
+}
+.highlight-txt{
+    background-color: #FFD361;
+    padding: 1% 2% 1% 2%;
+    border-radius: 0% 20% 0% 20%;
+}
+
+.position-title{
+    font-family: poppins;
+    font-weight: bold;
+}
+.job-desc{
+    font-family: poppins;
+    font-weight: lighter;
+    color: gray;
+    font-size: 15px;
+    line-height: 1.8em;
+}
 
 /* For mobile phones: */
 [class*="col-"] {
