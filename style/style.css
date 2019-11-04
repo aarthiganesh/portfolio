@@ -98,9 +98,16 @@ p.title{
 }
 .port-icon{
     width: 80%;
+    /* filter: drop-shadow(1vw 1vw); */
 }
+
+
 .resume-body{
     padding: 3.33%;
+}
+.flexbox{
+    display: flex;
+    float: left;
 }
 .highlight{
     width: auto;
