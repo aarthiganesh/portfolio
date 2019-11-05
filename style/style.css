@@ -127,10 +127,25 @@ p.title{
     padding: 1% 2% 1% 2%;
     border-radius: 0% 20% 0% 20%;
 }
+.tool{
 
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 5% 0% 5% 0% ;
+    max-width: 50%!important;
+}
 .position-title{
     font-family: poppins;
     font-weight: bold;
+}
+#company{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
 }
 .job-desc{
     font-family: poppins;
